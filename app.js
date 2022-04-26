@@ -9,7 +9,6 @@ const app= express();
 require('./config/db.config'); 
 
 // Middlewares
-
 app.use(morgan("dev")); 
 app.use(express.json()); 
 
@@ -18,7 +17,6 @@ const routes = require('./config/routes.config');
 app.use('/', routes);
 
 // Error handling
-
 const port = process.env.PORT || 8000; 
 
 app.listen(port, () => {
