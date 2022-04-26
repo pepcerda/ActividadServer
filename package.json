@@ -1,0 +1,21 @@
+{
+  "name": "actividadserver",
+  "version": "1.0.0",
+  "description": "Actividad1 ",
+  "main": "app.js",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "json-validator": "^0.0.34",
+    "mongodb-memory-server": "^8.5.1",
+    "morgan": "^1.10.0",
+    "mongoose": "^6.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js", 
+    "dev": "nodemon app.js"
+  },
+  "author": "jcerdar",
+  "license": "ISC"
+}
